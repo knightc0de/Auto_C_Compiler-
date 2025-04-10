@@ -10,15 +10,32 @@ A lightweight and fast auto-compilation tool for C programs on Linux. Simply pro
 - User-friendly command-line interface
 
 ---
-
-## Usage
-
+## Example
 ```bash
-python3 auto_compile.py  hello.c hello
+
+$ python3 Auto_C_compiler.py hello.c  hello
+
 Starting compilation...
+
+Compilation is successful
 Hello, World!
 ```
 
+## Requirements
+Linux OS
 
+Python 3.x
 
+GCC (GNU Compiler Collection)
+
+Install GCC (if not already installed):
+
+```bash
+
+sudo apt install build-essential
+
+```
+
+## Author
+@knightc0de
 
